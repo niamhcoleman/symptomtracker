@@ -1,0 +1,63 @@
+
+
+#symptomsdiv {
+    width:100%;
+    align-content: center;
+    
+  }
+  
+  .container input {
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .container {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 40px;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    top: 12px;
+   left: 13px;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   background: black;
+  }
+
+  #symptomName {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  #syms {
+    width: 100%;
+    display: inline-block;
+    padding-left: 7px;
+  }
+
+  #responsediv {
+    text-align: center;
+    font-size: large;
+  }

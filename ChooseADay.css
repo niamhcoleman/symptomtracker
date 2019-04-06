@@ -1,0 +1,38 @@
+#nav > div > div > div > div.react-calendar__navigation > button.react-calendar__navigation__label {
+font-weight: bolder;
+font-size: large;
+}
+
+#nav > div > div > div > div.react-calendar__month-view > div > div > div.react-calendar__month-view__days > button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__month-view__days__day {
+  background-color: #4CAF50;
+}
+
+.react-calendar {
+  border: none!important;
+  width:100%!important;
+  padding: 5%!important;
+}
+
+.react-calendar button {
+  font-size: large;
+}
+
+#response {
+  text-align: center;
+  font-weight: bold;
+}
+
+#tod_heading {
+  text-align: left;
+  font-weight: bold;
+  font-size: larger;
+  padding-left: 10px;
+  color: #337339;
+  letter-spacing: 1px;
+}
+
+#info-heading {
+  padding-left: 10px;
+  font-weight: bold;
+  display:inline-block;
+}

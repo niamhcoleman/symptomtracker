@@ -1,0 +1,79 @@
+#viewinfo {
+    border-radius: 25px;
+    min-width: 50%;;
+    background-color: #e3e7ed;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: large;
+    border: black;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+  }
+
+#changepass {
+    border-radius: 25px;
+    min-width: 50%;;
+    background-color: #e3e7ed;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: large;
+    border: black;
+    overflow: hidden;
+    text-align: center;
+  }
+
+input[type="button"]:active {
+    color:  white!important;
+    background:  #4CAF50!important;
+  }
+
+#accDiv
+  {
+    width:100%;
+    padding-top: 25%;
+    display: inline-block;
+    text-align: center;
+  }
+
+#passchange {
+    border-radius: 60px;
+    height: 30px;
+    font-size: medium;
+    padding: 5px;
+  }
+
+#pass_submit
+  {
+    border-radius: 25px;
+    min-width: 50%;;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: large;
+    border: black;
+    overflow: hidden;
+    text-align: center;
+  }
+
+#accHeading {
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 1px; 
+    color: #4CAF50;
+  }
+
+#accInfoHeading {
+  text-align: left!important;
+  font-size: large;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+
